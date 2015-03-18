@@ -1,0 +1,7 @@
+*.o
+*.p
+src/bin.debug64/
+src/bin.release64/
+src/objs.debug64/
+src/objs.release64/
+src/Old GNUmakefile

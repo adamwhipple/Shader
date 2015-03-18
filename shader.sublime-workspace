@@ -1,0 +1,1070 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prin",
+				"printKdTree"
+			],
+			[
+				"obje",
+				"objectID"
+			],
+			[
+				"tri",
+				"trimesh"
+			],
+			[
+				"trac",
+				"TraceUI"
+			],
+			[
+				"ref",
+				"reflectedDirection"
+			],
+			[
+				"refracted",
+				"refractedDirection"
+			],
+			[
+				"cos",
+				"cosineAngle"
+			],
+			[
+				"sin",
+				"sinT"
+			],
+			[
+				"sq",
+				"sqrt"
+			],
+			[
+				"ligh",
+				"lightIntensity"
+			],
+			[
+				"is",
+				"iszero"
+			],
+			[
+				"get",
+				"getMin"
+			],
+			[
+				"fina",
+				"finalPoint"
+			],
+			[
+				"dim",
+				"dimen"
+			],
+			[
+				"righ",
+				"rightObjects"
+			],
+			[
+				"fin",
+				"finalCost"
+			],
+			[
+				"cur",
+				"currCost"
+			],
+			[
+				"lef",
+				"leftObjects"
+			],
+			[
+				"left",
+				"leftArea"
+			],
+			[
+				"rig",
+				"rightArea"
+			],
+			[
+				"sec",
+				"second"
+			],
+			[
+				"fir",
+				"firstX"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"tra",
+				"traceUI"
+			],
+			[
+				"buf",
+				"buffer_height"
+			],
+			[
+				"ray",
+				"rayCountBuf"
+			],
+			[
+				"del",
+				"deltaX"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"pixe",
+				"pixelIntensity"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"pix",
+				"pixelIntensities"
+			],
+			[
+				"pi",
+				"pixelIntensity"
+			],
+			[
+				"sub",
+				"subSampleRow"
+			],
+			[
+				"curr",
+				"currPixelX"
+			],
+			[
+				"pixel",
+				"pixelX"
+			],
+			[
+				"thr",
+				"threadNo"
+			],
+			[
+				"noOf",
+				"noOfCols"
+			],
+			[
+				"set",
+				"setSmoothShading"
+			],
+			[
+				"noo",
+				"noOfCols"
+			],
+			[
+				"nof",
+				"noOfRows"
+			],
+			[
+				"thre",
+				"threadNo"
+			],
+			[
+				"threa",
+				"threadNo"
+			],
+			[
+				"go",
+				"goingIn"
+			],
+			[
+				"cosT",
+				"cosThetaI"
+			],
+			[
+				"sqr",
+				"sqrtTerm"
+			],
+			[
+				"refra",
+				"refractedDirection"
+			],
+			[
+				"fa",
+				"FALL_RATE"
+			],
+			[
+				"fall",
+				"fallRate"
+			],
+			[
+				"fal",
+				"fallFactor"
+			],
+			[
+				"shad",
+				"shadowDirection"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"att",
+				"atten_angle"
+			],
+			[
+				"has",
+				"hasPosition"
+			],
+			[
+				"parseSca",
+				"parseScalarExpression"
+			],
+			[
+				"toke",
+				"tokenNames"
+			],
+			[
+				"rese",
+				"reservedWords"
+			],
+			[
+				"bg",
+				"bgSize"
+			],
+			[
+				"bg_buf",
+				"bg_buffer_width"
+			],
+			[
+				"buff",
+				"buffer"
+			],
+			[
+				"x",
+				"xScale"
+			],
+			[
+				"obj",
+				"objectID"
+			],
+			[
+				"Tra",
+				"TraceUI"
+			],
+			[
+				"TR",
+				"TraceUI"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"cure",
+				"currentCost"
+			],
+			[
+				"final",
+				"finalMinMax"
+			],
+			[
+				"right",
+				"noRightObjects"
+			],
+			[
+				"curre",
+				"currentCost"
+			],
+			[
+				"firs",
+				"first"
+			],
+			[
+				"fi",
+				"firstBB"
+			],
+			[
+				"refl",
+				"reflectedRay"
+			],
+			[
+				"colo",
+				"color1"
+			],
+			[
+				"de",
+				"deltaY"
+			],
+			[
+				"fil",
+				"filteredBuf"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"filte",
+				"filterRow"
+			],
+			[
+				"filt",
+				"filterColumn"
+			],
+			[
+				"rayt",
+				"raytracer"
+			],
+			[
+				"Ray",
+				"RayTracer"
+			],
+			[
+				"inte",
+				"intensity"
+			],
+			[
+				"triM",
+				"triMesh"
+			],
+			[
+				"inter",
+				"intersectKdTree"
+			],
+			[
+				"getC",
+				"getCubeMap"
+			],
+			[
+				"int",
+				"intensity"
+			],
+			[
+				"m_",
+				"m_kdTree"
+			],
+			[
+				"kdTr",
+				"kdtreeRoot"
+			],
+			[
+				"use",
+				"useKdTree"
+			],
+			[
+				"sce",
+				"sceneHit"
+			],
+			[
+				"us",
+				"useKdTree"
+			],
+			[
+				"TRIME",
+				"TRIMESH"
+			],
+			[
+				"kdT",
+				"kdTreeLeafSize"
+			],
+			[
+				"kd",
+				"kdNode"
+			],
+			[
+				"kdtr",
+				"kdTreeLeafSize"
+			],
+			[
+				"kdt",
+				"kdTreeDepth"
+			],
+			[
+				"tM",
+				"tMax"
+			],
+			[
+				"_tM",
+				"_tMin"
+			],
+			[
+				"ob",
+				"objectsVector"
+			],
+			[
+				"no",
+				"noOfObjects"
+			],
+			[
+				"ts",
+				"tStar"
+			],
+			[
+				"tSta",
+				"tStar"
+			],
+			[
+				"kdtre",
+				"kdtreeRoot"
+			],
+			[
+				"tS",
+				"tStar"
+			],
+			[
+				"tSt",
+				"tStar"
+			],
+			[
+				"node",
+				"currentNode"
+			],
+			[
+				"dime",
+				"dimension"
+			],
+			[
+				"clock",
+				"clock"
+			],
+			[
+				"tStar",
+				"tStarMax"
+			],
+			[
+				"tm",
+				"tMin"
+			],
+			[
+				"getm",
+				"getMax"
+			],
+			[
+				"plan",
+				"planeIntersected"
+			],
+			[
+				"minLef",
+				"minLeftArea"
+			],
+			[
+				"pla",
+				"planeIntersected"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"tst",
+				"tStarMin"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"have",
+				"have_one"
+			],
+			[
+				"let",
+				"leftOrderedPlanes"
+			],
+			[
+				"or",
+				"orderedPlanes"
+			],
+			[
+				"con",
+				"const_iterator"
+			],
+			[
+				"iterator",
+				"const_iterator"
+			],
+			[
+				"mi",
+				"minimumCost"
+			],
+			[
+				"cost",
+				"minCost"
+			],
+			[
+				"minr",
+				"minRightObjects"
+			],
+			[
+				"minRi",
+				"minRightArea"
+			],
+			[
+				"max",
+				"maxValue"
+			],
+			[
+				"minRig",
+				"minRightArea"
+			],
+			[
+				"min",
+				"minValue"
+			],
+			[
+				"j",
+				"jBoundingBox"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/ray.sublime-project",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/material.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/ray.h",
+		"/u/kwadia/cs312/a4_clean/RockPaperScissors.java",
+		"/u/kwadia/cs312/a4_clean/turnin/geng--haoqing_4081329_36036082_RockPaperScissors.java",
+		"/u/kwadia/cs312/a4_clean/turnin/tran--tracy_3879181_36041139_RockPaperScissors.java",
+		"/u/kwadia/cs312/a4_clean/makefile",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/trimesh.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/TraceUI.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/GraphicalUI.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/GraphicalUI.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/CommandLineUI.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/scene.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/RayTracer.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/fileio/buffer.cpp",
+		"/u/kwadia/Downloads/scene.cpp",
+		"/u/kwadia/Downloads/Ciphers.java",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/cubeMap.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/RayTracer.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/vecmath/vec.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/scene.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/light.h",
+		"/u/kwadia/Downloads/raytracepixel.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/light.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/cubeMap.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/debuggingView.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Tokenizer.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Token.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Parser.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Parser.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Token.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/glObjects.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impressionistDoc.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/RayTracer/src/RayTracer.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/Makefile",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/CubeMapChooser.cxx",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/trimesh.h",
+		"/u/kwadia/Downloads/light.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/scenes/simple/spot_light_test.ray",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/camera.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impressionistUI.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/fileio/bitmap.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impressionistUI.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/scene.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/camera.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/bbox.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/Old kd tree loop",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/TraceGLWindow.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/main.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/CubeMapChooser.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/material.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/Makefile new threads not working",
+		"/u/kwadia/Downloads/RayTracer.cpp",
+		"/u/kwadia/Downloads/material.cpp",
+		"/u/kwadia/Downloads/scene.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Sphere.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Box.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Box.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Cone.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Cylinder.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/general.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Square.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/Makefile.campus",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/GraphicalUI.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/Makefile new",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/debuggingView.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/RayTracer-master/src/ui/GraphicalUI.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/RayTracer-master/src/ui/TraceUI.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/RayTracer-master/src/ui/GraphicalUI.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/light.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/material.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/trimesh.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/backup/RayTracer.cpp",
+		"/u/kwadia/Downloads/Mark/light.cpp",
+		"/u/kwadia/Downloads/Mark/material.cpp",
+		"/u/kwadia/Downloads/Mark/trimesh.cpp",
+		"/u/kwadia/Downloads/Mark/RayTracer.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/ray.cpp",
+		"/u/kwadia/Downloads/src/scene/material.cpp",
+		"/u/kwadia/Downloads/src/RayTracer.cpp",
+		"/u/kwadia/Downloads/teapot.obj",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/scenes/polymesh/easy1.ray",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/SceneObjects/Sphere.cpp",
+		"/u/kwadia/Downloads/src/SceneObjects/trimesh.cpp",
+		"/u/kwadia/cs312/a3_clean/makefile",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/CubeMapChooser.fl",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/scenes/box.ray",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray.sublime-project",
+		"/u/kwadia/cs312/a2_clean/grade_a2.py",
+		"/u/kwadia/cs312/a2_clean/makefile",
+		"/u/kwadia/cs312/a2_clean/readme.txt",
+		"/u/kwadia/cs312/a2_clean/compilerr/roquemore--eric_4067091_35898246_Tower.java",
+		"/u/kwadia/cs312/a2_clean/Todo",
+		"/u/kwadia/cs312/a2_clean/solution_2/Tower.java",
+		"/u/kwadia/cs312/a2_clean/turnin/campos--erick_3866448_35898010_Tower.java",
+		"/u/kwadia/cs312/a2_clean/a2/TowerSize.java",
+		"/u/kwadia/.cache/.fr-3jK3s3/impressionist/Makefile.campus",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/Makefile",
+		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist campus/impBrush.h",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impBrush.h",
+		"/u/kwadia/cs312/a1_clean/grade_a1.py",
+		"/u/kwadia/cs312/a1_clean/makefile",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impBrush.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/impressionist/impBrush.h",
+		"/u/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h",
+		"/v/filer4b/v20q001/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h",
+		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
+		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/u/kwadia/Downloads/_example/input.csv",
+		"/u/kwadia/Downloads/_example/makefile",
+		"/u/kwadia/nohup.out",
+		"/u/kwadia/CS394n/Project/somtoolbox/som_normalize.m",
+		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/make_predictions1.m",
+		"/u/kwadia/pathdef.m",
+		"/u/kwadia/PhysicalSimCS395T/Universe Of Goo Milestone 1/README~",
+		"/u/kwadia/CS394n/Project/somtoolbox/som_norm_variable.m",
+		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/RowNumberToMovieName.m",
+		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/make_predictions2.m",
+		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/GetUserMovieData.m",
+		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/GetMovieNamesFromRows.m",
+		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/show_data.m",
+		"/u/kwadia/CS394n/Project/workspace/MovieData/ID-Movie Name.csv",
+		"/u/kwadia/CS394n/Project/workspace/MovieData/Movie.txt",
+		"/u/kwadia/CS394n/Project/Data/EachMovie/EachMovie1460.txt",
+		"/u/kwadia/CS394n/Project/Data/EachMovie/original/Movie.txt",
+		"/u/kwadia/PhysicalSimCS395T/VCMilestone1/VirtualCatwalkMilestone1/resources/square.obj",
+		"/u/kwadia/untitled.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"m_antiAliasWhite",
+			"cb_aaWhiteCheckButton",
+			"cb_aaCheckButton",
+			"m_aaCheckButton",
+			"printf",
+			"cout",
+			"print",
+			"tEnd",
+			"finalPoint",
+			"finalBB",
+			"cb_aaCheckButton",
+			"m_aaCheckButton",
+			"pi",
+			"pj",
+			"pi",
+			"pj",
+			"pi",
+			"pixelCol",
+			"pixelRow",
+			"pixelY",
+			"pixelX",
+			"setUseKdTree",
+			"y",
+			"x",
+			"pixelColumn",
+			"pixelRow",
+			"COL",
+			"setRa",
+			"REFRACTION",
+			"PointLight",
+			"cb_ffi",
+			"DirectionalLight",
+			"cb_debuggingDisplayCheckButton",
+			"memcpy",
+			"cb_bfCheckButton",
+			"(*ii)->getBoundingBox()",
+			"std::",
+			"Geometry*",
+			"secondY",
+			"firstY",
+			"secondX",
+			"secondY",
+			"firstY",
+			"m_nPaintWidth",
+			"m_traceGlWindow",
+			"START TRIMESH",
+			"setCaller",
+			"setRayTracer",
+			"raytracer",
+			"Here",
+			"setRayTracer",
+			"useKdTree",
+			"is_tr\nis_t",
+			"kdtree",
+			"i.obj",
+			"i->obj",
+			"i.obj",
+			"nonboundedobjects",
+			"boundedobjects",
+			"boundedobjects\nboundedobjects",
+			"tree",
+			"generateNormals",
+			"vertNorms",
+			"m_debug",
+			"AMBIENT_LIGHT",
+			"parseAmbientLight",
+			"ambient",
+			"vec",
+			"pUVCoord",
+			"struct isect",
+			"isect",
+			"m_cubeMapChooser",
+			"cb_load_sce",
+			"cube",
+			"m_filterSlider",
+			"m_displayDebuggingInfo",
+			"m_shadows",
+			"cb_bfCheckButton",
+			"refreshInterval",
+			"cb_exit",
+			"cb_render",
+			"stringstream",
+			"itoa",
+			"(int)",
+			"print\n\nprint\n",
+			"print\n\nprint",
+			"parse_args",
+			"FLAGS",
+			"map",
+			"genGolden",
+			"run",
+			"genGolden",
+			"norm_eval_do",
+			" 0 ",
+			"<<<<",
+			"Resources",
+			"GAMBIT"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"co",
+				"src/ui/CommandLineUI.cpp"
+			],
+			[
+				"vec",
+				"src/vecmath/vec.h"
+			],
+			[
+				"mater",
+				"src/scene/material.cpp"
+			],
+			[
+				"ray",
+				"src/scene/ray.h"
+			],
+			[
+				"ligh",
+				"src/scene/light.cpp"
+			],
+			[
+				"tra",
+				"src/ui/TraceUI.h"
+			],
+			[
+				"trim",
+				"src/SceneObjects/trimesh.cpp"
+			],
+			[
+				"mat",
+				"src/scene/material.cpp"
+			],
+			[
+				"rayt",
+				"src/RayTracer.cpp"
+			],
+			[
+				"gra",
+				"src/ui/GraphicalUI.cpp"
+			],
+			[
+				"sc",
+				"src/scene/scene.cpp"
+			],
+			[
+				"tr",
+				"src/ui/TraceUI.h"
+			],
+			[
+				"ra",
+				"src/RayTracer.h"
+			],
+			[
+				"comm",
+				"src/ui/CommandLineUI.cpp"
+			],
+			[
+				"graphi",
+				"src/ui/GraphicalUI.cpp"
+			],
+			[
+				"cu",
+				"src/scene/cubeMap.cpp"
+			],
+			[
+				"sce",
+				"src/scene/scene.cpp"
+			],
+			[
+				"cub",
+				"src/scene/cubeMap.h"
+			],
+			[
+				"tri",
+				"src/SceneObjects/trimesh.cpp"
+			],
+			[
+				"tok",
+				"src/parser/Token.cpp"
+			],
+			[
+				"pa",
+				"src/parser/Parser.cpp"
+			],
+			[
+				"to",
+				"src/parser/Token.h"
+			],
+			[
+				"raytr",
+				"src/RayTracer.cpp"
+			],
+			[
+				"pars",
+				"src/parser/Parser.h"
+			],
+			[
+				"mate",
+				"src/scene/material.cpp"
+			],
+			[
+				"gl",
+				"src/ui/glObjects.cpp"
+			],
+			[
+				"lig",
+				"src/scene/light.cpp"
+			],
+			[
+				"toke",
+				"src/parser/Token.h"
+			],
+			[
+				"camer",
+				"src/scene/camera.cpp"
+			],
+			[
+				"bit",
+				"src/fileio/bitmap.h"
+			],
+			[
+				"cube",
+				"src/ui/CubeMapChooser.cxx"
+			],
+			[
+				"bb",
+				"src/scene/bbox.h"
+			],
+			[
+				"graph",
+				"src/ui/GraphicalUI.cpp"
+			],
+			[
+				"trac",
+				"src/ui/TraceUI.h"
+			],
+			[
+				"trime",
+				"src/SceneObjects/trimesh.cpp"
+			],
+			[
+				"sphe",
+				"src/SceneObjects/Sphere.h"
+			],
+			[
+				"par",
+				"src/parser/Parser.cpp"
+			],
+			[
+				"ryt",
+				"src/RayTracer.cpp"
+			],
+			[
+				"bbo",
+				"src/scene/bbox.h"
+			],
+			[
+				"sph",
+				"src/SceneObjects/Sphere.h"
+			],
+			[
+				"parse",
+				"src/parser/Parser.cpp"
+			],
+			[
+				"cyl",
+				"src/SceneObjects/Cylinder.h"
+			],
+			[
+				"deb",
+				"src/ui/debuggingView.cpp"
+			],
+			[
+				"trace",
+				"src/ui/TraceUI.h"
+			],
+			[
+				"scen",
+				"src/scene/scene.cpp"
+			],
+			[
+				"ve",
+				"src/vecmath/vec.h"
+			],
+			[
+				"bo",
+				"src/SceneObjects/Box.cpp"
+			],
+			[
+				"grap",
+				"src/ui/GraphicalUI.cpp"
+			],
+			[
+				"ray.h",
+				"src/scene/ray.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true
+}
