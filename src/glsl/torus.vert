@@ -27,12 +27,29 @@ void main()
   float y = (torusInfo.x + torusInfo.y * cosV) * sinU;
   float z = torusInfo.y * sinV;
 
-  vec3 xyz = vec3(x, y, z);
-  gl_Position = gl_ModelViewProjectionMatrix * vec4(xyz, 1);  // XXX fix me
-  eyeDirection = vec3(0);  // XXX fix me
-  lightDirection = vec3(0);  // XXX fix me
-  halfAngle = vec3(0);  // XXX fix me
-  c0 = vec3(0);  // XXX fix me
-  c1 = vec3(0);  // XXX fix me
-  c2 = vec3(0);  // XXX fix me
+  vec3 objectCoords = vec3(x, y, z);
+  gl_Position = gl_ModelViewProjectionMatrix * vec4(objectCoords, 1);  // XXX fix me
+
+  vec3 tangentVector = vec3((torusInfo.x + torusInfo.y * cosV) * -sinU, (torusInfo.x + torusInfo.y * cosV) * cosU, 0);
+  tangentVector = normalize(tangentVector);
+
+  vec3 gradientVector = vec3( (-torusInfo.y * sinV) * cosU, (-torusInfo.y * sinV) * sinU, torusInfo.y * cosV);
+  gradientVector = normalize(gradientVector);
+
+  vec3 surfaceNormal = cross(tangentVector, gradientVector);
+  //surfaceNormal = normalize(surfaceNormal);
+
+  vec3 biNormal = cross(surfaceNormal, tangentVector);
+
+  mat3 M = mat3(tangentVector, biNormal, surfaceNormal);
+  mat3 Minv = transpose(M);
+
+  vec3 surfaceCoords = M * objectCoords;
+
+  eyeDirection = Minv * (eyePosition - surfaceCoords);
+  lightDirection = Minv * (lightPosition - surfaceCoords);
+  halfAngle = (eyeDirection + lightDirection) / 2;  // XXX fix me
+  c0 = tangentVector;  // XXX fix me
+  c1 = biNormal;  // XXX fix me
+  c2 = surfaceNormal;  // XXX fix me
 }

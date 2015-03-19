@@ -19,5 +19,8 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  gl_FragColor = vec4(1,0,0,1);  // XXX fix me
+  vec3 lightDirNorm = normalize(lightDirection);
+  float clampMax = max(lightDirNorm.z, 0);
+
+  gl_FragColor = LMa + LMd * clampMax;
 }

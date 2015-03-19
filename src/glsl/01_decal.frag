@@ -19,5 +19,14 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  gl_FragColor = vec4(1,0,0,1);  // XXX fix me
+  if (normalMapTexCoord.y > 0.5)
+  {
+  	vec2 textureCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * -2);
+  	gl_FragColor = texture(decal, textureCoords);
+  }
+  else if (normalMapTexCoord.y <= 0.5)
+  {
+  	vec2 textureCoords = vec2(normalMapTexCoord.x * -6, normalMapTexCoord.y * 2);
+  	gl_FragColor = texture(decal, textureCoords);
+  }
 }

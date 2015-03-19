@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 8837,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/ReadMe.txt",
+			"settings":
+			{
+				"buffer_size": 3579,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -544,6 +560,11 @@
 	},
 	"file_history":
 	[
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/02_diffuse.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/torus.vert",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/01_decal.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/00_red.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/ray.sublime-project",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/material.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/ray.h",
@@ -666,12 +687,7 @@
 		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/GetUserMovieData.m",
 		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/GetMovieNamesFromRows.m",
 		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/show_data.m",
-		"/u/kwadia/CS394n/Project/workspace/MovieData/ID-Movie Name.csv",
-		"/u/kwadia/CS394n/Project/workspace/MovieData/Movie.txt",
-		"/u/kwadia/CS394n/Project/Data/EachMovie/EachMovie1460.txt",
-		"/u/kwadia/CS394n/Project/Data/EachMovie/original/Movie.txt",
-		"/u/kwadia/PhysicalSimCS395T/VCMilestone1/VirtualCatwalkMilestone1/resources/square.obj",
-		"/u/kwadia/untitled.java"
+		"/u/kwadia/CS394n/Project/workspace/MovieData/ID-Movie Name.csv"
 	],
 	"find":
 	{
@@ -690,6 +706,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"cos",
 			"m_antiAliasWhite",
 			"cb_aaWhiteCheckButton",
 			"cb_aaCheckButton",
@@ -804,8 +821,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/main.cpp",
+					"settings":
+					{
+						"buffer_size": 8837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1377.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/ReadMe.txt",
+					"settings":
+					{
+						"buffer_size": 3579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3059,
+								3059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -854,6 +928,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"tex",
+				"src/texture.cpp"
+			],
+			[
+				"read",
+				"src/ReadMe.txt"
+			],
+			[
+				"main",
+				"src/main.cpp"
+			],
 			[
 				"co",
 				"src/ui/CommandLineUI.cpp"
