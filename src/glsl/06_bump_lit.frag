@@ -19,5 +19,23 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  gl_FragColor = vec4(1,0,0,1);  // XXX fix me
+  vec4 textureColor;
+  if (normalMapTexCoord.y > 0.5)
+  {
+  	vec2 textureCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * -2);
+  	textureColor = texture(decal, textureCoords);
+  }
+  else if (normalMapTexCoord.y <= 0.5)
+  {
+  	vec2 textureCoords = vec2(normalMapTexCoord.x * -6, normalMapTexCoord.y * 2);
+  	textureColor = texture(decal, textureCoords);
+  }
+  vec2 bumpCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * 2);
+  vec3 bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
+
+  vec3 lightDirNorm = normalize(lightDirection);
+  float diffuseMax = max(dot(lightDirNorm, bumpNormal), 0);
+  vec3 halfAngleNorm = normalize(halfAngle);
+  float specMax = max(dot(halfAngleNorm, bumpNormal), 0);
+  gl_FragColor = (LMa * textureColor) + (LMd * textureColor * diffuseMax) + (LMs * textureColor * pow(specMax, shininess));
 }

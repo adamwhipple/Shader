@@ -19,5 +19,14 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  gl_FragColor = vec4(1,0,0,1);  // XXX fix me
+  vec2 bumpCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * 2);
+  vec3 bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
+
+  mat3 M = mat3(c0, c1, c2);
+  vec3 eyeDirNorm = normalize(eyeDirection);
+  vec3 reflectedLocal = reflect(eyeDirNorm, bumpNormal);
+  vec3 reflectedWorld = M * reflectedLocal;
+  vec3 reflectedObject = objectToWorld * reflectedWorld;
+
+  gl_FragColor = texture(envmap, -reflectedObject);
 }

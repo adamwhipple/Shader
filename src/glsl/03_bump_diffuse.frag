@@ -21,7 +21,7 @@ void main()
 {
   vec3 lightDirNorm = normalize(lightDirection);
   vec2 bumpCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * 2);
-  vec3 tempNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
-  float clampMax = max(dot(lightDirNorm, tempNormal), 0);
+  vec3 bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
+  float clampMax = max(dot(lightDirNorm, bumpNormal), 0);
   gl_FragColor = LMa + LMd * clampMax;
 }
