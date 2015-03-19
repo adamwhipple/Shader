@@ -19,5 +19,9 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  gl_FragColor = vec4(1,0,0,1);  // XXX fix me
+  vec3 lightDirNorm = normalize(lightDirection);
+  vec2 bumpCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * 2);
+  vec3 tempNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
+  float clampMax = max(dot(lightDirNorm, tempNormal), 0);
+  gl_FragColor = LMa + LMd * clampMax;
 }

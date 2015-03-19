@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"norma",
+				"normalNorm"
+			],
+			[
+				"float",
+				"float3"
+			],
+			[
+				"height",
+				"height-1"
+			],
+			[
 				"prin",
 				"printKdTree"
 			],
@@ -502,39 +514,11 @@
 			[
 				"max",
 				"maxValue"
-			],
-			[
-				"minRig",
-				"minRightArea"
-			],
-			[
-				"min",
-				"minValue"
-			],
-			[
-				"j",
-				"jBoundingBox"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/main.cpp",
-			"settings":
-			{
-				"buffer_size": 8837,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/ReadMe.txt",
-			"settings":
-			{
-				"buffer_size": 3579,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -560,13 +544,26 @@
 	},
 	"file_history":
 	[
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/02_diffuse.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/include/Cg/vector.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.hpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/07_reflection.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/torus.vert",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/ReadMe.txt",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/01_decal.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/02_diffuse.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/04_specular.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/03_bump_diffuse.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/menus.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/stb/stb_image.c",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/00_red.frag",
-		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/ray.sublime-project",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/inverse.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/05_diffspec.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/material.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/ray.sublime-project",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/ray.h",
 		"/u/kwadia/cs312/a4_clean/RockPaperScissors.java",
 		"/u/kwadia/cs312/a4_clean/turnin/geng--haoqing_4081329_36036082_RockPaperScissors.java",
@@ -674,20 +671,7 @@
 		"/v/filer4b/v20q001/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h",
 		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
 		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/u/kwadia/Downloads/_example/input.csv",
-		"/u/kwadia/Downloads/_example/makefile",
-		"/u/kwadia/nohup.out",
-		"/u/kwadia/CS394n/Project/somtoolbox/som_normalize.m",
-		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/make_predictions1.m",
-		"/u/kwadia/pathdef.m",
-		"/u/kwadia/PhysicalSimCS395T/Universe Of Goo Milestone 1/README~",
-		"/u/kwadia/CS394n/Project/somtoolbox/som_norm_variable.m",
-		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/RowNumberToMovieName.m",
-		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/make_predictions2.m",
-		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/GetUserMovieData.m",
-		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/GetMovieNamesFromRows.m",
-		"/u/kwadia/CS394n/Project/MovieRecommendationSystem/MatlabFuncs/show_data.m",
-		"/u/kwadia/CS394n/Project/workspace/MovieData/ID-Movie Name.csv"
+		"/u/kwadia/Downloads/_example/input.csv"
 	],
 	"find":
 	{
@@ -706,6 +690,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"normalize",
+			"^",
+			"cross",
+			"255",
+			"height",
+			"load",
+			"xyz",
 			"cos",
 			"m_antiAliasWhite",
 			"cb_aaWhiteCheckButton",
@@ -821,65 +812,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/main.cpp",
-					"settings":
-					{
-						"buffer_size": 8837,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1377.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/ReadMe.txt",
-					"settings":
-					{
-						"buffer_size": 3579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3059,
-								3059
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 969.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -929,6 +863,10 @@
 		"selected_items":
 		[
 			[
+				"vec",
+				"src/include/Cg/vector.hpp"
+			],
+			[
 				"tex",
 				"src/texture.cpp"
 			],
@@ -943,10 +881,6 @@
 			[
 				"co",
 				"src/ui/CommandLineUI.cpp"
-			],
-			[
-				"vec",
-				"src/vecmath/vec.h"
 			],
 			[
 				"mater",

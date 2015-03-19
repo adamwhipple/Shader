@@ -21,9 +21,10 @@ void main()
 {
   vec3 lightDirNorm = normalize(lightDirection);
   float diffuseMax = max(lightDirNorm.z, 0);
-  vec3 halfAngleNorm = normalize(halfAngle);
-  float specularMax = max(halfAngleNorm.z, 0);
 
-  gl_FragColor = LMa + (LMd * diffuseMax);
-  // + (LMs * specularMax * pow(dot(halfAngleNorm, eyeDirection), shininess))
+  vec3 halfAngleNorm = normalize(halfAngle);
+  float specDot = halfAngleNorm.z;
+  specDot = max(0, specDot);
+
+  gl_FragColor = LMa + (LMd * diffuseMax) + (LMs * pow(specDot, shininess));
 }

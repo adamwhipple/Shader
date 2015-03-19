@@ -6,6 +6,7 @@
 #endif
 #include <Cg/vector.hpp>
 #include <Cg/matrix.hpp>
+#include <iostream>
 #include "countof.h"
 
 #include "texture.hpp"

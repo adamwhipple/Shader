@@ -20,10 +20,7 @@ varying vec3 c0, c1, c2;
 void main()
 {
   vec3 halfAngleNorm = normalize(halfAngle);
-  vec3 lightDirNorm = normalize(lightDirection);
-  vec3 eyeDirNorm = normalize(eyeDirection);
-  float clampMax = max(lightDirNorm.z, 0);
-  float specDot = dot(halfAngleNorm, eyeDirNorm);
+  float specDot = halfAngleNorm.z;
   specDot = max(0, specDot);
   gl_FragColor = LMs * pow(specDot, shininess);
 }

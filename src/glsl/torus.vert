@@ -37,7 +37,7 @@ void main()
   gradientVector = normalize(gradientVector);
 
   vec3 surfaceNormal = cross(tangentVector, gradientVector);
-  //surfaceNormal = normalize(surfaceNormal);
+  surfaceNormal = normalize(surfaceNormal);
 
   vec3 biNormal = cross(surfaceNormal, tangentVector);
 
@@ -48,7 +48,7 @@ void main()
 
   eyeDirection = Minv * (eyePosition - surfaceCoords);
   lightDirection = Minv * (lightPosition - surfaceCoords);
-  halfAngle = (eyeDirection + lightDirection) / 2;  // XXX fix me
+  halfAngle = (eyeDirection + lightDirection) / 2.0;  // XXX fix me
   c0 = tangentVector;  // XXX fix me
   c1 = biNormal;  // XXX fix me
   c2 = surfaceNormal;  // XXX fix me
