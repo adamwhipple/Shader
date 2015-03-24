@@ -520,18 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/texture.cpp",
-			"settings":
-			{
-				"buffer_size": 8440,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/glsl/torus.vert",
 			"settings":
 			{
-				"buffer_size": 1655,
+				"buffer_size": 1627,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,8 +531,16 @@
 			"file": "src/glsl/01_decal.frag",
 			"settings":
 			{
-				"buffer_size": 853,
+				"buffer_size": 1236,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/15_temp.frag",
+			"settings":
+			{
+				"buffer_size": 832,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -611,7 +611,7 @@
 			"file": "src/glsl/10_toon.frag",
 			"settings":
 			{
-				"buffer_size": 1364,
+				"buffer_size": 1368,
 				"line_ending": "Unix"
 			}
 		},
@@ -627,24 +627,8 @@
 			"file": "src/glsl/12_toon_decal.frag",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1770,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/main.cpp",
-			"settings":
-			{
-				"buffer_size": 8996,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/menus.cpp",
-			"settings":
-			{
-				"buffer_size": 9483,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -672,11 +656,12 @@
 	},
 	"file_history":
 	[
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/menus.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/12_toon_texture.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.hpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/menus.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/stb/stb_image.c",
 		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impressionistDoc.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.hpp",
@@ -693,7 +678,6 @@
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/07_reflection.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/08_bump_reflection.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/torus.vert",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/include/Cg/vector.hpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/ReadMe.txt",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/inverse.cpp",
@@ -807,7 +791,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -818,6 +802,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"glEnable",
+			"specMax",
 			"specDot",
 			"torusInfo",
 			"setSampler",
@@ -958,46 +944,46 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/texture.cpp",
+					"file": "src/glsl/torus.vert",
 					"settings":
 					{
-						"buffer_size": 8440,
+						"buffer_size": 1627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3870,
-								3870
+								784,
+								784
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1122.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/glsl/torus.vert",
+					"file": "src/glsl/01_decal.frag",
 					"settings":
 					{
-						"buffer_size": 1655,
+						"buffer_size": 1236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								494
+								328,
+								328
 							]
 						],
 						"settings":
@@ -1014,18 +1000,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/glsl/01_decal.frag",
+					"file": "src/glsl/15_temp.frag",
 					"settings":
 					{
-						"buffer_size": 853,
+						"buffer_size": 832,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								478,
-								478
+								456,
+								456
 							]
 						],
 						"settings":
@@ -1052,8 +1038,8 @@
 						"selection":
 						[
 							[
-								634,
-								634
+								454,
+								454
 							]
 						],
 						"settings":
@@ -1110,7 +1096,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1136,7 +1124,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1156,8 +1146,8 @@
 						"selection":
 						[
 							[
-								414,
-								414
+								1228,
+								1228
 							]
 						],
 						"settings":
@@ -1257,15 +1247,15 @@
 					"file": "src/glsl/10_toon.frag",
 					"settings":
 					{
-						"buffer_size": 1364,
+						"buffer_size": 1368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1313,
-								1313
+								1228,
+								1228
 							]
 						],
 						"settings":
@@ -1275,7 +1265,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1313,79 +1303,25 @@
 					"file": "src/glsl/12_toon_decal.frag",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								967,
+								967
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "src/main.cpp",
-					"settings":
-					{
-						"buffer_size": 8996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5136,
-								5136
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3468.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "src/menus.cpp",
-					"settings":
-					{
-						"buffer_size": 9483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7362,
-								7362
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2856.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
