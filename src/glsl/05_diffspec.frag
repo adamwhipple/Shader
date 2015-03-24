@@ -25,7 +25,11 @@ void main()
   vec3 halfAngleNorm = normalize(halfAngle);
   float specDot = halfAngleNorm.z;
   specDot = max(0, specDot);
-
+  if (diffuseMax == 0)
+  {
+  	specDot = 0.0;
+  }
+  
   gl_FragColor = LMa + (LMd * diffuseMax) + (LMs * pow(specDot, shininess));
   gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

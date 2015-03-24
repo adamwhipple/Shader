@@ -185,7 +185,8 @@ static const struct {
     { "8 Bumpy reflection",    "glsl/08_bump_reflection.frag" },
     { "9 Combo",               "glsl/09_combo.frag" },
     { "10 Toon",               "glsl/10_toon.frag" },
-    { "11 Parallax",           "glsl/11_parallax.frag" }
+    { "11 Parallax",           "glsl/11_parallax.frag" },
+    { "12 Toon Decal",           "glsl/12_toon_decal.frag" }
 };
 
 void shaderMenu(int item)

@@ -113,6 +113,7 @@ void initGraphics()
 #endif
     glEnableClientState(GL_VERTEX_ARRAY);
     glEnable(GL_DEPTH_TEST);
+    //glEnable(GL_CULL_FACE);
     glPixelStorei(GL_PACK_ALIGNMENT, 1);  // avoid GL's dumb default of 4
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);  // avoid GL's dumb default of 4
     glClearColor(0.1, 0.1, 0.2, 0.0);
@@ -225,6 +226,9 @@ void keyboard(unsigned char c, int x, int y)
         break;
     case 'p':
         shaderMenu(11);
+        break;
+    case 'r':
+        shaderMenu(12);
         break;
     case 27:  /* Esc quits */
         exit(0);

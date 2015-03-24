@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ver",
+				"verbose"
+			],
+			[
+				"sha",
+				"shader_list"
+			],
+			[
 				"norma",
 				"normalNorm"
 			],
@@ -506,14 +514,6 @@
 			[
 				"minr",
 				"minRightObjects"
-			],
-			[
-				"minRi",
-				"minRightArea"
-			],
-			[
-				"max",
-				"maxValue"
 			]
 		]
 	},
@@ -523,7 +523,127 @@
 			"file": "src/texture.cpp",
 			"settings":
 			{
-				"buffer_size": 8168,
+				"buffer_size": 8440,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/torus.vert",
+			"settings":
+			{
+				"buffer_size": 1655,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/01_decal.frag",
+			"settings":
+			{
+				"buffer_size": 853,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/02_diffuse.frag",
+			"settings":
+			{
+				"buffer_size": 637,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/03_bump_diffuse.frag",
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/glsl/04_specular.frag",
+			"settings":
+			{
+				"buffer_size": 809,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/05_diffspec.frag",
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/06_bump_lit.frag",
+			"settings":
+			{
+				"buffer_size": 1389,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/07_reflection.frag",
+			"settings":
+			{
+				"buffer_size": 793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/08_bump_reflection.frag",
+			"settings":
+			{
+				"buffer_size": 933,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/09_combo.frag",
+			"settings":
+			{
+				"buffer_size": 1961,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/10_toon.frag",
+			"settings":
+			{
+				"buffer_size": 1364,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/glsl/11_parallax.frag",
+			"settings":
+			{
+				"buffer_size": 1207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/glsl/12_toon_decal.frag",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 8996,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/menus.cpp",
+			"settings":
+			{
+				"buffer_size": 9483,
 				"line_ending": "Windows"
 			}
 		}
@@ -552,6 +672,16 @@
 	},
 	"file_history":
 	[
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/12_toon_texture.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/menus.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/stb/stb_image.c",
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impressionistDoc.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/stb/stb_image.h",
+		"/u/kwadia/Downloads/10_cartoon.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/09_combo.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/00_red.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/01_decal.frag",
@@ -565,13 +695,7 @@
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/torus.vert",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/include/Cg/vector.hpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.hpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.hpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/ReadMe.txt",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/menus.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/stb/stb_image.c",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/inverse.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/material.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/ray.sublime-project",
@@ -605,7 +729,6 @@
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Parser.h",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/parser/Token.h",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/glObjects.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impressionistDoc.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/RayTracer/src/RayTracer.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/Makefile",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/ui/CubeMapChooser.cxx",
@@ -676,10 +799,7 @@
 		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impBrush.h",
 		"/u/kwadia/cs312/a1_clean/grade_a1.py",
 		"/u/kwadia/cs312/a1_clean/makefile",
-		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impBrush.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/impressionist/impBrush.h",
-		"/u/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h",
-		"/v/filer4b/v20q001/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h"
+		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impBrush.cpp"
 	],
 	"find":
 	{
@@ -698,6 +818,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"specDot",
+			"torusInfo",
+			"setSampler",
+			"normalMapTexCoord",
+			"newTexCoords",
+			"normalMapTexCoord",
+			"stbi_load",
+			"diffuseMax",
+			"diffIntensity",
+			"intensity",
+			"color",
+			"light_diffuse",
 			"));\n",
 			"normalize",
 			"^",
@@ -821,7 +953,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 13,
 			"sheets":
 			[
 				{
@@ -829,15 +961,15 @@
 					"file": "src/texture.cpp",
 					"settings":
 					{
-						"buffer_size": 8168,
+						"buffer_size": 8440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2882,
-								2882
+								3870,
+								3870
 							]
 						],
 						"settings":
@@ -847,7 +979,413 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2550.0,
+						"translation.y": 1122.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/glsl/torus.vert",
+					"settings":
+					{
+						"buffer_size": 1655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/glsl/01_decal.frag",
+					"settings":
+					{
+						"buffer_size": 853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/glsl/02_diffuse.frag",
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/glsl/03_bump_diffuse.frag",
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/glsl/04_specular.frag",
+					"settings":
+					{
+						"buffer_size": 809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								710,
+								710
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/glsl/05_diffspec.frag",
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/glsl/06_bump_lit.frag",
+					"settings":
+					{
+						"buffer_size": 1389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/glsl/07_reflection.frag",
+					"settings":
+					{
+						"buffer_size": 793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								790,
+								790
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/glsl/08_bump_reflection.frag",
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/glsl/09_combo.frag",
+					"settings":
+					{
+						"buffer_size": 1961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1308,
+								1308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/glsl/10_toon.frag",
+					"settings":
+					{
+						"buffer_size": 1364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1313,
+								1313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/glsl/11_parallax.frag",
+					"settings":
+					{
+						"buffer_size": 1207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1204,
+								1204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/glsl/12_toon_decal.frag",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/main.cpp",
+					"settings":
+					{
+						"buffer_size": 8996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5136,
+								5136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3468.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/menus.cpp",
+					"settings":
+					{
+						"buffer_size": 9483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7362,
+								7362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2856.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -861,7 +1399,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -901,6 +1439,14 @@
 		"selected_items":
 		[
 			[
+				"menus",
+				"src/menus.cpp"
+			],
+			[
+				"main",
+				"src/main.cpp"
+			],
+			[
 				"tex",
 				"src/texture.cpp"
 			],
@@ -911,10 +1457,6 @@
 			[
 				"read",
 				"src/ReadMe.txt"
-			],
-			[
-				"main",
-				"src/main.cpp"
 			],
 			[
 				"co",

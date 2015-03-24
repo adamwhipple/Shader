@@ -14,8 +14,8 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  normalMapTexCoord = vec2(parametric.x, parametric.y);  // XXX fix me
-  vec2 angleDeg = normalMapTexCoord * 360;
+  normalMapTexCoord = vec2(parametric.x, parametric.y);
+  vec2 angleDeg = normalMapTexCoord * 360.0;
   vec2 uv = radians(angleDeg);
 
   float cosU = cos(uv.x);
@@ -28,7 +28,7 @@ void main()
   float z = torusInfo.y * sinV;
 
   vec3 objectCoords = vec3(x, y, z);
-  gl_Position = gl_ModelViewProjectionMatrix * vec4(objectCoords, 1);  // XXX fix me
+  gl_Position = gl_ModelViewProjectionMatrix * vec4(objectCoords, 1);
 
   vec3 tangentVector = vec3((torusInfo.x + torusInfo.y * cosV) * -sinU, (torusInfo.x + torusInfo.y * cosV) * cosU, 0);
   tangentVector = normalize(tangentVector);

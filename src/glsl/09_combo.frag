@@ -50,6 +50,11 @@ void main()
 
   vec3 halfAngleNorm = normalize(halfAngle);
   float specMax = max(dot(halfAngleNorm, bumpNormal), 0);
+  if (diffuseMax == 0)
+  {
+    specMax = 0.0;
+  }
+  
   vec4 bumpSpecular = (LMs * textureColor * pow(specMax, shininess));
   //vec4 bumpSpecular = (LMs * pow(specMax, shininess));
 
