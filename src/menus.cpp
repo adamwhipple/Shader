@@ -183,7 +183,9 @@ static const struct {
     { "6 Bump lit",            "glsl/06_bump_lit.frag" },
     { "7 Reflection",          "glsl/07_reflection.frag" },
     { "8 Bumpy reflection",    "glsl/08_bump_reflection.frag" },
-    { "9 Combo",               "glsl/09_combo.frag" }
+    { "9 Combo",               "glsl/09_combo.frag" },
+    { "10 Toon",               "glsl/10_toon.frag" },
+    { "11 Parallax",           "glsl/11_parallax.frag" }
 };
 
 void shaderMenu(int item)

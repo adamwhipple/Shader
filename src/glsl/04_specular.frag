@@ -23,4 +23,5 @@ void main()
   float specDot = halfAngleNorm.z;
   specDot = max(0, specDot);
   gl_FragColor = LMs * pow(specDot, shininess);
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

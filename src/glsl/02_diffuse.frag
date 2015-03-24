@@ -23,4 +23,5 @@ void main()
   float clampMax = max(lightDirNorm.z, 0);
 
   gl_FragColor = LMa + LMd * clampMax;
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

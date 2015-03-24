@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/texture.cpp",
+			"settings":
+			{
+				"buffer_size": 8168,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -544,24 +552,27 @@
 	},
 	"file_history":
 	[
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/include/Cg/vector.hpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.hpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.hpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/07_reflection.frag",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/torus.vert",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/ReadMe.txt",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/09_combo.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/00_red.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/01_decal.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/02_diffuse.frag",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/04_specular.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/03_bump_diffuse.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/04_specular.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/05_diffspec.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/06_bump_lit.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/07_reflection.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/08_bump_reflection.frag",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/torus.vert",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/include/Cg/vector.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/texture.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.hpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/scene.cpp",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/ReadMe.txt",
+		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/main.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/menus.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/stb/stb_image.c",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/00_red.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/inverse.cpp",
-		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/05_diffspec.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/material.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/ray.sublime-project",
 		"/u/kwadia/CS384G - Computer Graphics/Project 2/ray/src/scene/ray.h",
@@ -668,10 +679,7 @@
 		"/u/kwadia/CS384G - Computer Graphics/Project 1/impressionist/impBrush.cpp",
 		"/u/kwadia/CS384G - Computer Graphics/impressionist/impBrush.h",
 		"/u/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h",
-		"/v/filer4b/v20q001/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h",
-		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
-		"/v/filer4b/v20q001/kwadia/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/u/kwadia/Downloads/_example/input.csv"
+		"/v/filer4b/v20q001/kwadia/CS384G - Computer Graphics/impressionist/impressionist.h"
 	],
 	"find":
 	{
@@ -690,6 +698,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"));\n",
 			"normalize",
 			"^",
 			"cross",
@@ -812,8 +821,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/texture.cpp",
+					"settings":
+					{
+						"buffer_size": 8168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2882,
+								2882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2550.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -863,12 +901,12 @@
 		"selected_items":
 		[
 			[
-				"vec",
-				"src/include/Cg/vector.hpp"
-			],
-			[
 				"tex",
 				"src/texture.cpp"
+			],
+			[
+				"vec",
+				"src/include/Cg/vector.hpp"
 			],
 			[
 				"read",

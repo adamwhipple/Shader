@@ -29,4 +29,5 @@ void main()
   vec3 reflectedObject = objectToWorld * reflectedWorld;
 
   gl_FragColor = texture(envmap, -reflectedObject);
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

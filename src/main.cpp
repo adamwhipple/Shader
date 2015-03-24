@@ -220,6 +220,12 @@ void keyboard(unsigned char c, int x, int y)
     case '9':
         shaderMenu(c-'0');
         break;
+    case 't':
+        shaderMenu(10);
+        break;
+    case 'p':
+        shaderMenu(11);
+        break;
     case 27:  /* Esc quits */
         exit(0);
         return;

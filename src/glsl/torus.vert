@@ -48,8 +48,8 @@ void main()
 
   eyeDirection = Minv * (eyePosition - surfaceCoords);
   lightDirection = Minv * (lightPosition - surfaceCoords);
-  halfAngle = (eyeDirection + lightDirection) / 2.0;  // XXX fix me
-  c0 = tangentVector;  // XXX fix me
-  c1 = biNormal;  // XXX fix me
-  c2 = surfaceNormal;  // XXX fix me
+  halfAngle = (eyeDirection + lightDirection) / 2.0;
+  c0 = tangentVector;
+  c1 = biNormal;
+  c2 = surfaceNormal;
 }

@@ -37,5 +37,6 @@ void main()
   float diffuseMax = max(dot(lightDirNorm, bumpNormal), 0);
   vec3 halfAngleNorm = normalize(halfAngle);
   float specMax = max(dot(halfAngleNorm, bumpNormal), 0);
-  gl_FragColor = (LMa * textureColor) + (LMd * textureColor * diffuseMax) + (LMs * textureColor * pow(specMax, shininess));
+  gl_FragColor = (LMa) + (LMd * textureColor * diffuseMax) + (LMs * textureColor * pow(specMax, shininess));
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

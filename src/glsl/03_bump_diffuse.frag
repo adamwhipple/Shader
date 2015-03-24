@@ -24,4 +24,5 @@ void main()
   vec3 bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
   float clampMax = max(dot(lightDirNorm, bumpNormal), 0);
   gl_FragColor = LMa + LMd * clampMax;
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

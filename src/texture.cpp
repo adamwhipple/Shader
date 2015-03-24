@@ -165,6 +165,8 @@ float3 NormalMap::computeNormal(int i, int j, float scale)
     int j1 = (j == height-1)? 0 : j+1;
     float dx = (float)image[j*width + i1] - (float)image[j*width + i];
     float dy = (float)image[j1*width + i] - (float)image[j*width + i];
+    // float dx = (float)image[3*(j*width + i1)] - (float)image[3*(j*width + i)];
+    // float dy = (float)image[3*(j1*width + i)] - (float)image[3*(j*width + i)];
     dx = dx/255.0f;
     dy = dy/255.0f;
     if (dx == 0 && dy == 0)
@@ -182,6 +184,8 @@ bool NormalMap::load(float scale)
     int requested_components = 1;
     components = requested_components;
     image = stbi_load(filename, &width, &height, &actual_components, requested_components);
+    // printf("Actual : %d\n", actual_components);
+    // printf("Requested : %d\n", requested_components);
     if (image) {
         assert(width > 0);
         assert(height > 0);

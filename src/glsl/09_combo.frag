@@ -45,7 +45,7 @@ void main()
 
   vec3 lightDirNorm = normalize(lightDirection);
   float diffuseMax = max(dot(lightDirNorm, bumpNormal), 0);
-  vec4 bumpDiffAmbient = (LMa * textureColor) + (LMd * textureColor * diffuseMax);
+  vec4 bumpDiffAmbient = (LMa) + (LMd * textureColor * diffuseMax);
   //vec4 bumpDiffAmbient = (LMa) + (LMd * diffuseMax);
 
   vec3 halfAngleNorm = normalize(halfAngle);
@@ -53,5 +53,6 @@ void main()
   vec4 bumpSpecular = (LMs * textureColor * pow(specMax, shininess));
   //vec4 bumpSpecular = (LMs * pow(specMax, shininess));
 
-  gl_FragColor = 0.5 * bumpDiffAmbient + 0.5 * bumpSpecular + 0.6 * bumpReflection; 
+  gl_FragColor = 0.5 * bumpDiffAmbient + 0.5 * bumpSpecular + 0.6 * bumpReflection;
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }
