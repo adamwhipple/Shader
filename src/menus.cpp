@@ -200,18 +200,24 @@ void shaderMenu(int item)
     if (item == 13)
     {
         printf("Enabling gl States \n");
-        glEnable(GL_BLEND);
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-        // glBlendFunc(GL_ONE, GL_ONE);
         // glDisable(GL_DEPTH_TEST);
         // glEnable(GL_CULL_FACE);
+        // glCullFace(GL_BACK);
         // glEnable(GL_BLEND);
         // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        // glBlendFunc(GL_ONE, GL_ONE);
+        // glDisable(GL_DEPTH_TEST);
+        // glEnable(GL_BLEND);
+        // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        // GLint temp;
+        // glGetIntegerv(GL_DEPTH_WRITEMASK, &temp);
+        // printf("DEpth mask : %d \n", temp);
     }
     else
     {
         printf("Disabling gl states\n");
         glEnable(GL_DEPTH_TEST);
+        glDepthMask(true);
         glDisable(GL_BLEND);
     }
 

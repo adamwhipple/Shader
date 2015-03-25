@@ -27,7 +27,7 @@ void main()
     vec2 textureCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * -2);
     float height = texture(heightField, textureCoords).r;
     height = height * scale + bias;
-    vec2 newTexCoords = textureCoords + (height * eyeDirNorm);
+    vec2 newTexCoords = textureCoords + (height * eyeDirNorm.xy);
     gl_FragColor = texture(decal, newTexCoords);
   }
   else if (normalMapTexCoord.y <= 0.5)
@@ -35,7 +35,7 @@ void main()
     vec2 textureCoords = vec2(normalMapTexCoord.x * -6, normalMapTexCoord.y * 2);
     float height = texture(heightField, textureCoords).r;
     height = height * scale + bias;
-    vec2 newTexCoords = textureCoords + (height * eyeDirNorm);
+    vec2 newTexCoords = textureCoords + (height * eyeDirNorm.xy);
     gl_FragColor = texture(decal, newTexCoords);
   }
   gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);

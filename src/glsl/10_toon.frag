@@ -44,7 +44,7 @@ void main()
   }
   else
   {
-    diffIntensity = 0.1;
+    diffIntensity = 0.05;
   }
 
   float specIntensity = 0.0;
@@ -62,7 +62,7 @@ void main()
   }
   else
   {
-    specIntensity = 0.1;
+    specIntensity = 0.05;
   }
 
 	gl_FragColor = LMa + (LMd * diffIntensity) + (LMs * pow(specIntensity,shininess));

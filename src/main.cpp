@@ -223,11 +223,11 @@ void keyboard(unsigned char c, int x, int y)
     case 't':
         shaderMenu(10);
         break;
-    case 'p':
-        shaderMenu(11);
-        break;
     case 'T':
         shaderMenu(12);
+        break;
+    case 'p':
+        shaderMenu(11);
         break;
     case 'e':
         shaderMenu(13);

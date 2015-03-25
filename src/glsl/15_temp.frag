@@ -19,7 +19,27 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  gl_FragColor = vec4(1, 0, 0, alpha);
+  mat3 M = mat3(c0, c1, c2);
+  //vec3 eyeDirNorm = normalize(-eyeDirection);
+  vec3 reflectedObjSpace = M * -eyeDirection;
+  vec3 reflectedEnvSpace = objectToWorld * reflectedObjSpace;
+
+  gl_FragColor = texture(envmap, reflectedEnvSpace);
+  gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
+
+  return;
+  if (normalMapTexCoord.y > 0.5)
+  {
+    vec2 textureCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * -2);
+    gl_FragColor = texture(decal, textureCoords);
+  }
+  else if (normalMapTexCoord.y <= 0.5)
+  {
+    vec2 textureCoords = vec2(normalMapTexCoord.x * -6, normalMapTexCoord.y * 2);
+    gl_FragColor = texture(decal, textureCoords);
+  }
+  gl_FragColor.a = alpha;
+
   /* vec3 lightDirNorm = normalize(lightDirection);
   float diffuseMax = max(lightDirNorm.z, 0);
 
@@ -41,4 +61,5 @@ void main()
     tempColor.a = 0.5;
   }
   gl_FragColor = clamp(tempColor, 0.0, 1.0); */
+  //gl_FragColor = vec4(1, 0, 0, alpha);
 }
