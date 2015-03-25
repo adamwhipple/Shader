@@ -273,7 +273,15 @@ void keyboard(unsigned char c, int x, int y)
     case 'I':
         material->bias -= 0.01;
         printf("Bias = %f\n", material->bias);
-        break;        
+        break;
+    case 'a':
+        material->alpha += 0.02;
+    case 'A':
+        material->alpha -= 0.01;
+        material->alpha = material->alpha > 1.0 ? 1.0 : material->alpha;
+        material->alpha = material->alpha < 0.0 ? 0.0 : material->alpha;
+        printf("Alpha = %f\n", material->alpha);
+        break;
     default:
         return;
     }

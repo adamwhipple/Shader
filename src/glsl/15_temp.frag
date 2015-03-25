@@ -2,6 +2,7 @@ uniform vec4 LMa; // Light-Material ambient
 uniform vec4 LMd; // Light-Material diffuse
 uniform vec4 LMs; // Light-Material specular
 uniform float shininess;
+uniform float alpha;
 
 uniform sampler2D normalMap;
 uniform sampler2D decal;
@@ -18,7 +19,8 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  vec3 lightDirNorm = normalize(lightDirection);
+  gl_FragColor = vec4(1, 0, 0, alpha);
+  /* vec3 lightDirNorm = normalize(lightDirection);
   float diffuseMax = max(lightDirNorm.z, 0);
 
   vec3 halfAngleNorm = normalize(halfAngle);
@@ -38,5 +40,5 @@ void main()
   {
     tempColor.a = 0.5;
   }
-  gl_FragColor = clamp(tempColor, 0.0, 1.0);
+  gl_FragColor = clamp(tempColor, 0.0, 1.0); */
 }

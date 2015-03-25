@@ -452,6 +452,7 @@ void Torus::draw(const View& view, LightPtr light) {
     program.setVec1f("shininess", material->shininess);
     program.setVec1f("scale", material->scale);
     program.setVec1f("bias", material->bias);
+    program.setVec1f("alpha", material->alpha);
 
     program.setMat3f("objectToWorld", transform);
     ////ERR_CHECK();
@@ -805,6 +806,7 @@ Material::Material()
     , shininess(0)
     , scale(0.1)
     , bias(0.1)
+    , alpha(1.0)
 {
 }
 

@@ -197,23 +197,23 @@ void shaderMenu(int item)
     const char *filename = shader_list[item].filename;
     printf("Switching to shader \"%s\", loaded from %s...\n", shader_list[item].name, filename);
 
-    // if (item == 13)
-    // {
-    //     printf("Enabling gl States \n");
-    //     // glEnable(GL_BLEND);
-    //     //glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    //     // glBlendFunc(GL_ONE, GL_ONE);
-    //     // glDisable(GL_DEPTH_TEST);
-    //     // glEnable(GL_CULL_FACE);
-    //     // glEnable(GL_BLEND);
-    //     // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    // }
-    // else
-    // {
-    //     printf("Disabling gl states\n");
-    //     glEnable(GL_DEPTH_TEST);
-    //     glDisable(GL_BLEND);
-    // }
+    if (item == 13)
+    {
+        printf("Enabling gl States \n");
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        // glBlendFunc(GL_ONE, GL_ONE);
+        // glDisable(GL_DEPTH_TEST);
+        // glEnable(GL_CULL_FACE);
+        // glEnable(GL_BLEND);
+        // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    }
+    else
+    {
+        printf("Disabling gl states\n");
+        glEnable(GL_DEPTH_TEST);
+        glDisable(GL_BLEND);
+    }
 
     scene->object_list[0]->fragment_filename = filename;
     scene->object_list[0]->loadProgram();

@@ -237,6 +237,7 @@ struct Material {
     float shininess;
     float scale;
     float bias;
+    float alpha;
 
     NormalMapPtr normal_map;
     Texture2DPtr decal;
