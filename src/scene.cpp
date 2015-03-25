@@ -450,6 +450,8 @@ void Torus::draw(const View& view, LightPtr light) {
     float4 LMs = material->specular*light->getColor();
     program.setVec4f("LMs", LMs);
     program.setVec1f("shininess", material->shininess);
+    program.setVec1f("scale", material->scale);
+    program.setVec1f("bias", material->bias);
 
     program.setMat3f("objectToWorld", transform);
     ////ERR_CHECK();
@@ -801,6 +803,8 @@ Material::Material()
     , diffuse(float4(0.8,0.8,0.8,1.0))
     , specular(float4(0))
     , shininess(0)
+    , scale(0.1)
+    , bias(0.1)
 {
 }
 

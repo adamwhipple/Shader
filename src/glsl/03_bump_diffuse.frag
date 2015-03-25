@@ -1,4 +1,3 @@
-
 uniform vec4 LMa; // Light-Material ambient
 uniform vec4 LMd; // Light-Material diffuse
 uniform vec4 LMs; // Light-Material specular
@@ -20,9 +19,26 @@ varying vec3 c0, c1, c2;
 void main()
 {
   vec3 lightDirNorm = normalize(lightDirection);
-  vec2 bumpCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * 2);
-  vec3 bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
-  float clampMax = max(dot(lightDirNorm, bumpNormal), 0);
-  gl_FragColor = LMa + LMd * clampMax;
+  vec2 bumpCoords;
+  vec3 bumpNormal;
+  if (normalMapTexCoord.y > 0.5)
+  {
+  	bumpCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * -2);
+  	bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
+  	bumpNormal.x = bumpNormal.x;
+  	bumpNormal.y = -bumpNormal.y;
+  	bumpNormal.z = bumpNormal.z;
+  }
+  if (normalMapTexCoord.y <= 0.5)
+  {
+  	bumpCoords = vec2(normalMapTexCoord.x * -6, normalMapTexCoord.y * 2);
+  	bumpNormal = (2 * texture(normalMap, bumpCoords).xyz) - 1;
+  	bumpNormal.x = -bumpNormal.x;
+  	bumpNormal.y = bumpNormal.y;
+  	bumpNormal.z = bumpNormal.z;
+  }
+
+  float diffuseMax = max(dot(lightDirNorm, bumpNormal), 0);
+  gl_FragColor = LMa + LMd * diffuseMax;
   gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

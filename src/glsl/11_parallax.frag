@@ -2,6 +2,8 @@ uniform vec4 LMa; // Light-Material ambient
 uniform vec4 LMd; // Light-Material diffuse
 uniform vec4 LMs; // Light-Material specular
 uniform float shininess;
+uniform float scale;
+uniform float bias;
 
 uniform sampler2D normalMap;
 uniform sampler2D decal;
@@ -24,7 +26,7 @@ void main()
   {
     vec2 textureCoords = vec2(normalMapTexCoord.x * 6, normalMapTexCoord.y * -2);
     float height = texture(heightField, textureCoords).r;
-    height = height * 0.1 + 0.1;
+    height = height * scale + bias;
     vec2 newTexCoords = textureCoords + (height * eyeDirNorm);
     gl_FragColor = texture(decal, newTexCoords);
   }
@@ -32,7 +34,7 @@ void main()
   {
     vec2 textureCoords = vec2(normalMapTexCoord.x * -6, normalMapTexCoord.y * 2);
     float height = texture(heightField, textureCoords).r;
-    height = height * 0.1 + 0.1;
+    height = height * scale + bias;
     vec2 newTexCoords = textureCoords + (height * eyeDirNorm);
     gl_FragColor = texture(decal, newTexCoords);
   }

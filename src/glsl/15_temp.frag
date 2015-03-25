@@ -18,17 +18,25 @@ varying vec3 c0, c1, c2;
 
 void main()
 {
-  vec4 tempCoord = inverse(gl_ModelViewProjectionMatrix) * gl_FragCoord;
-  if (gl_FragCoord.y > 250)
+  vec3 lightDirNorm = normalize(lightDirection);
+  float diffuseMax = max(lightDirNorm.z, 0);
+
+  vec3 halfAngleNorm = normalize(halfAngle);
+  float specDot = halfAngleNorm.z;
+  specDot = max(0, specDot);
+  if (diffuseMax == 0)
   {
-    discard; // stop processing the fragment if y coordinate is positive
+    specDot = 0.0;
   }
-  if (gl_FrontFacing) // are we looking at a front face?
+  
+  tempColor = LMa + (LMd * diffuseMax) + (LMs * pow(specDot, shininess));
+  if (normalMapTexCoord.y > 0.5)
   {
-    gl_FragColor = vec4(0.0, 1.0, 0.0, 1.0); // yes: green
+    tempColor.a = 1;
   }
   else
   {
-    gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0); // no: red
+    tempColor.a = 0.5;
   }
+  gl_FragColor = clamp(tempColor, 0.0, 1.0);
 }

@@ -165,8 +165,6 @@ float3 NormalMap::computeNormal(int i, int j, float scale)
     int j1 = (j == height-1)? 0 : j+1;
     float dx = (float)image[j*width + i1] - (float)image[j*width + i];
     float dy = (float)image[j1*width + i] - (float)image[j*width + i];
-    // float dx = (float)image[3*(j*width + i1)] - (float)image[3*(j*width + i)];
-    // float dy = (float)image[3*(j1*width + i)] - (float)image[3*(j*width + i)];
     dx = dx/255.0f;
     dy = dy/255.0f;
     if (dx == 0 && dy == 0)

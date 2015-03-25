@@ -1,4 +1,3 @@
-
 uniform vec4 LMa; // Light-Material ambient
 uniform vec4 LMd; // Light-Material diffuse
 uniform vec4 LMs; // Light-Material specular
@@ -77,6 +76,6 @@ void main()
     specIntensity = 0.1;
   }
 
-	gl_FragColor = LMa + (LMd * textureColor * diffIntensity) + (LMs * textureColor * pow(specIntensity,shininess));
+	gl_FragColor = (LMa * textureColor) + (LMd * textureColor * diffIntensity) + (LMs * textureColor * pow(specIntensity,shininess));
   gl_FragColor = clamp(gl_FragColor, 0.0, 1.0);
 }

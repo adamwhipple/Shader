@@ -113,7 +113,6 @@ void initGraphics()
 #endif
     glEnableClientState(GL_VERTEX_ARRAY);
     glEnable(GL_DEPTH_TEST);
-    //glEnable(GL_CULL_FACE);
     glPixelStorei(GL_PACK_ALIGNMENT, 1);  // avoid GL's dumb default of 4
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);  // avoid GL's dumb default of 4
     glClearColor(0.1, 0.1, 0.2, 0.0);
@@ -227,8 +226,11 @@ void keyboard(unsigned char c, int x, int y)
     case 'p':
         shaderMenu(11);
         break;
-    case 'r':
+    case 'T':
         shaderMenu(12);
+        break;
+    case 'e':
+        shaderMenu(13);
         break;
     case 27:  /* Esc quits */
         exit(0);
@@ -260,6 +262,18 @@ void keyboard(unsigned char c, int x, int y)
 
         material->bindTextures();
         break;
+    case 's':
+        material->scale += 0.02;
+    case 'S':
+        material->scale -= 0.01;
+        printf("Scale = %f\n", material->scale);
+        break;
+    case 'i':
+        material->bias += 0.02;
+    case 'I':
+        material->bias -= 0.01;
+        printf("Bias = %f\n", material->bias);
+        break;        
     default:
         return;
     }

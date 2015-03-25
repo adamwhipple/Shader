@@ -1,4 +1,3 @@
-
 uniform vec4 LMa; // Light-Material ambient
 uniform vec4 LMd; // Light-Material diffuse
 uniform vec4 LMs; // Light-Material specular
