@@ -187,7 +187,7 @@ static const struct {
     { "10 Toon",               "glsl/10_toon.frag" },
     { "11 Parallax",           "glsl/11_parallax.frag" },
     { "12 Toon Decal",         "glsl/12_toon_decal.frag" },
-    { "13 Temp",               "glsl/15_temp.frag" }
+    { "13 Temp",               "glsl/13_trans.frag" }
 };
 
 void shaderMenu(int item)
@@ -200,11 +200,13 @@ void shaderMenu(int item)
     if (item == 13)
     {
         printf("Enabling gl States \n");
-        // glDisable(GL_DEPTH_TEST);
+        glDisable(GL_DEPTH_TEST);
         // glEnable(GL_CULL_FACE);
         // glCullFace(GL_BACK);
-        // glEnable(GL_BLEND);
-        // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_COLOR, GL_SRC_COLOR);
+        glBlendEquation(GL_FUNC_ADD);
+        // glBlendFunc(GL_SRC_ALPHA, GL_SRC_ALPHA);
         // glBlendFunc(GL_ONE, GL_ONE);
         // glDisable(GL_DEPTH_TEST);
         // glEnable(GL_BLEND);

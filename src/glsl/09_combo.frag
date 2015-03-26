@@ -46,11 +46,11 @@ void main()
 
   mat3 M = mat3(c0, c1, c2);
   vec3 eyeDirNorm = normalize(eyeDirection);
-  vec3 reflectedLocal = reflect(eyeDirNorm, bumpNormal);
+  vec3 reflectedLocal = reflect(-eyeDirNorm, bumpNormal);
   vec3 reflectedWorld = M * reflectedLocal;
   vec3 reflectedObject = objectToWorld * reflectedWorld;
 
-  vec4 bumpReflection = texture(envmap, -reflectedObject);
+  vec4 bumpReflection = texture(envmap, reflectedObject);
 
   vec3 lightDirNorm = normalize(lightDirection);
   float diffuseMax = max(dot(lightDirNorm, bumpNormal), 0);

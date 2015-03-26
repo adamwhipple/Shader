@@ -27,8 +27,8 @@ void main()
   float y = (torusInfo.x + torusInfo.y * cosV) * sinU;
   float z = torusInfo.y * sinV;
 
-  vec3 objectCoords = vec3(x, y, z);
-  gl_Position = gl_ModelViewProjectionMatrix * vec4(objectCoords, 1);
+  vec3 surfaceCoords = vec3(x, y, z);
+  gl_Position = gl_ModelViewProjectionMatrix * vec4(surfaceCoords, 1);
 
   vec3 tangentVector = vec3((torusInfo.x + torusInfo.y * cosV) * -sinU, (torusInfo.x + torusInfo.y * cosV) * cosU, 0);
   tangentVector = normalize(tangentVector);
@@ -44,10 +44,10 @@ void main()
   mat3 M = mat3(tangentVector, biNormal, surfaceNormal);
   mat3 Minv = transpose(M);
 
-  vec3 surfaceCoords = M * objectCoords;
+  vec3 objectCoords = M * surfaceCoords;
 
-  eyeDirection = Minv * (eyePosition - surfaceCoords);
-  lightDirection = Minv * (lightPosition - surfaceCoords);
+  eyeDirection = Minv * (eyePosition - objectCoords);
+  lightDirection = Minv * (lightPosition - objectCoords);
   halfAngle = (eyeDirection + lightDirection) / 2.0;
   c0 = tangentVector;
   c1 = biNormal;

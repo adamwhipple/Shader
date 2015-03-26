@@ -226,11 +226,11 @@ void keyboard(unsigned char c, int x, int y)
     case 'T':
         shaderMenu(12);
         break;
+    case 'r':
+        shaderMenu(13);
+        break;
     case 'p':
         shaderMenu(11);
-        break;
-    case 'e':
-        shaderMenu(13);
         break;
     case 27:  /* Esc quits */
         exit(0);
@@ -280,7 +280,7 @@ void keyboard(unsigned char c, int x, int y)
         material->alpha -= 0.01;
         material->alpha = material->alpha > 1.0 ? 1.0 : material->alpha;
         material->alpha = material->alpha < 0.0 ? 0.0 : material->alpha;
-        printf("Alpha = %f\n", material->alpha);
+        // printf("Alpha = %f\n", material->alpha);
         break;
     default:
         return;
