@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"LM",
+				"LMa"
+			],
+			[
+				"make",
+				"makeCapital"
+			],
+			[
 				"GL_ON",
 				"GL_ONE_MINUS_SRC_ALPHA"
 			],
@@ -506,19 +514,67 @@
 			[
 				"con",
 				"const_iterator"
-			],
-			[
-				"iterator",
-				"const_iterator"
-			],
-			[
-				"mi",
-				"minimumCost"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/glsl/torus.vert",
+			"settings":
+			{
+				"buffer_size": 1627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/06_bump_lit.frag",
+			"settings":
+			{
+				"buffer_size": 1775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/09_combo.frag",
+			"settings":
+			{
+				"buffer_size": 2301,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/glsl/13_trans.frag",
+			"settings":
+			{
+				"buffer_size": 937,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 9668,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/menus.cpp",
+			"settings":
+			{
+				"buffer_size": 10322,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scene.cpp",
+			"settings":
+			{
+				"buffer_size": 20992,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -544,6 +600,8 @@
 	},
 	"file_history":
 	[
+		"/u/kwadia/Downloads/WordProcessor.java",
+		"/u/kwadia/Desktop/Temp/WordProcessor.java",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/10_toon.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/02_diffuse.frag",
 		"/u/kwadia/CS384G - Computer Graphics/Project 3/shader/src/glsl/11_parallax.frag",
@@ -669,9 +727,7 @@
 		"/u/kwadia/cs312/a2_clean/compilerr/roquemore--eric_4067091_35898246_Tower.java",
 		"/u/kwadia/cs312/a2_clean/Todo",
 		"/u/kwadia/cs312/a2_clean/solution_2/Tower.java",
-		"/u/kwadia/cs312/a2_clean/turnin/campos--erick_3866448_35898010_Tower.java",
-		"/u/kwadia/cs312/a2_clean/a2/TowerSize.java",
-		"/u/kwadia/.cache/.fr-3jK3s3/impressionist/Makefile.campus"
+		"/u/kwadia/cs312/a2_clean/turnin/campos--erick_3866448_35898010_Tower.java"
 	],
 	"find":
 	{
@@ -679,7 +735,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -690,6 +746,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"d",
 			"xyz",
 			"getTextureObject",
 			"glBindTexture",
@@ -816,8 +873,7 @@
 			"cb_bfCheckButton",
 			"refreshInterval",
 			"cb_exit",
-			"cb_render",
-			"stringstream"
+			"cb_render"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -836,8 +892,205 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/glsl/torus.vert",
+					"settings":
+					{
+						"buffer_size": 1627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/glsl/06_bump_lit.frag",
+					"settings":
+					{
+						"buffer_size": 1775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1674,
+								1674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/glsl/09_combo.frag",
+					"settings":
+					{
+						"buffer_size": 2301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2301,
+								2301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 561.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/glsl/13_trans.frag",
+					"settings":
+					{
+						"buffer_size": 937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/main.cpp",
+					"settings":
+					{
+						"buffer_size": 9668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2142.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/menus.cpp",
+					"settings":
+					{
+						"buffer_size": 10322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7791,
+								7791
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/scene.cpp",
+					"settings":
+					{
+						"buffer_size": 20992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11006,
+								11006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7038.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -886,6 +1139,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sce",
+				"src/scene.cpp"
+			],
 			[
 				"tex",
 				"src/texture.cpp"
@@ -981,10 +1238,6 @@
 			[
 				"cu",
 				"src/scene/cubeMap.cpp"
-			],
-			[
-				"sce",
-				"src/scene/scene.cpp"
 			],
 			[
 				"cub",
