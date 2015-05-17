@@ -571,7 +571,7 @@
 			"file": "src/scene.cpp",
 			"settings":
 			{
-				"buffer_size": 20992,
+				"buffer_size": 20918,
 				"line_ending": "Windows"
 			}
 		}
@@ -892,7 +892,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -907,8 +907,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								455,
+								455
 							]
 						],
 						"settings":
@@ -946,7 +946,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1047,8 +1047,8 @@
 						"selection":
 						[
 							[
-								7791,
-								7791
+								7722,
+								7722
 							]
 						],
 						"settings":
@@ -1068,15 +1068,15 @@
 					"file": "src/scene.cpp",
 					"settings":
 					{
-						"buffer_size": 20992,
+						"buffer_size": 20918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11006,
-								11006
+								11247,
+								11247
 							]
 						],
 						"settings":
@@ -1086,7 +1086,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7038.0,
+						"translation.y": 9690.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
